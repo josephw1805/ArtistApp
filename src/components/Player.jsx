@@ -20,7 +20,7 @@ const Player = () => {
             {/* avatar img */}
             <div className="relative w-16 h-16">
               <Image
-                className="rounded-full"
+                className="rounded-full object-cover"
                 src={"/assets/player/avatar.png"}
                 fill
                 alt=""
