@@ -8,7 +8,7 @@ import AlbumSlider from "./AlbumSlider";
 
 const Albums = () => {
   return (
-    <section id="discography">
+    <section className="section" id="discography">
       <div className="container mx-auto">
         <SectionHeader pretitle="Discography" title="Popular Albums" />
         {/* album slider */}
