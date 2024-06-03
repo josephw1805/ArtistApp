@@ -10,17 +10,19 @@ import { fadeIn } from "../../variants";
 import Image from "next/image";
 
 const locationSequence = [
-  "Dalian, China",
-  3000,
   "Shenzhen, China",
   3000,
-  "Hefei, China",
+  "Chongqing, China",
+  3000,
+  "Guangzhou, China",
   3000,
   "Suzhou, China",
   3000,
   "Beijing, China",
   3000,
 ];
+
+const shopURL = "https://econweb.azurewebsites.net/"
 
 const Hero = () => {
   return (
@@ -137,7 +139,7 @@ const Hero = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
           >
-            <button className="btn btn-lg btn-accent">Get tickets</button>
+            <button className="btn btn-lg btn-accent" onClick={() => window.open(shopURL, "_blank")}>Show All</button>
           </motion.div>
         </div>
         {/* image */}
