@@ -22,7 +22,7 @@ const locationSequence = [
   3000,
 ];
 
-const shopURL = "https://econweb.azurewebsites.net/"
+const shopURL = "https://econ-hippo.vercel.app/"
 
 const Hero = () => {
   return (
