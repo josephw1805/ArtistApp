@@ -18,9 +18,9 @@ const Footer = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
         >
-          <Link href="mailto:stacychang63@gmail.com">
+          <Link href="mailto:wdia@gmail.com">
             <h2 className="text-[24px] lg:text-[38px] font-semibold leading-tight">
-              stacychang63@gmail.com
+              wdia@gmail.com
             </h2>
           </Link>
         </motion.div>
